@@ -10,7 +10,7 @@ function visavailChart() {
     bottom: 20,
 
     // left margin should provide space for y axis titles
-    left: 100,
+    left: 160,
   };
 
   // height of horizontal data bars
@@ -26,7 +26,7 @@ function visavailChart() {
   var paddingBottom = 10;
 
   // space for y axis titles
-  var paddingLeft = -100;
+  var paddingLeft = -1 * margin.left;
 
   var width = 940 - margin.left - margin.right;
 
